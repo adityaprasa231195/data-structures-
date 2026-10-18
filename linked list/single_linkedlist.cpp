@@ -19,7 +19,7 @@ int main(){
 
 	Listnode *head = first;  // Head points to the first node
 
-    Listnode *current = first;
+    Listnode *current = head;
 
      while (current != nullptr) {
         cout << current->data << " ";
