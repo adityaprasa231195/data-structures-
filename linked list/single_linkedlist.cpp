@@ -17,6 +17,8 @@ int main(){
     first->next =second;
     second->next =third;
 
+	Listnode *head = first;  // Head points to the first node
+
     Listnode *current = first;
 
      while (current != nullptr) {
